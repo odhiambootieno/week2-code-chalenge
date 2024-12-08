@@ -1,8 +1,8 @@
-# Interactive Shopping List
+# Week2-Code-Challenge
 
 ## Overview
 
-The Interactive Shopping List is a simple web application that allows users to create and manage a shopping list. Users can add items, mark them as purchased, edit existing items, and clear the entire list. The application also utilizes local storage to persist the shopping list even after the page is refreshed.
+This code challenge is about the Interactive Shopping List which is a simple web application that allows users to create and manage a shopping list. Users can add items, mark them as purchased, edit existing items, and clear the entire list. The application also utilizes local storage to persist the shopping list even after the page is refreshed.
 
 ## Features
 
@@ -24,8 +24,8 @@ To run the Interactive Shopping List application locally, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/interactive-shopping-list.git
-   cd interactive-shopping-list
+   git clone https://github.com/yourusername/week2-code-challenge.git
+   cd week2-code-challenge
 
 ## Contributing
 
