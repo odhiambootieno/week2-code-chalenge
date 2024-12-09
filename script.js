@@ -20,6 +20,13 @@ function renderList() {
             renderList();
         });
 
+        // Create "Mark as Purchased" button
+        const purchasedButton = document.createElement('button');
+        purchasedButton.textContent = 'Mark as Purchased';
+        purchasedButton.addEventListener('click', function() {
+            li.classList.toggle('purchased'); // Toggle the purchased class
+        });
+
         // Edit item
         li.addEventListener('dblclick', () => {
             const newItem = prompt('Edit item:', item.text);
