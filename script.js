@@ -13,6 +13,7 @@ function renderList() {
         li.textContent = item.text;
         li.className = item.purchased ? 'purchased' : '';
         
+       
         // Mark as purchased
         li.addEventListener('click', () => {
             item.purchased = !item.purchased;
@@ -40,7 +41,7 @@ function saveToLocalStorage() {
     localStorage.setItem('shoppingList', JSON.stringify(items));
 }
 
-// Add item to the list
+// Add item to the list.
 addButton.addEventListener('click', () => {
     const itemText = itemInput.value.trim();
     if (itemText) {
