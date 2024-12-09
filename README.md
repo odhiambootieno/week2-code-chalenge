@@ -31,6 +31,18 @@ To run the Interactive Shopping List application locally, follow these steps:
    git clone https://github.com/yourusername/week2-code-challenge.git
    cd week2-code-challenge
 
+## Usage
+
+1. Adding Items: Type an item into the input field and click the "Add" button to add it to the list.
+
+2. Marking Items as Purchased: Click on an item in the list to toggle its purchased status.
+
+3. Editing Items: Double-click on an item to edit its text.
+
+4. Clearing the List: Click the "Clear List" button to remove all items from the list.
+
+
+
 ## Contributing
 
 Contributions are welcome! If you have suggestions for improvements or new features, feel free to open an issue or submit a pull request.
