@@ -1,15 +1,19 @@
 # Week2-Code-Challenge
 
-## Overview
+## About
 
 This code challenge is about the Interactive Shopping List which is a simple web application that allows users to create and manage a shopping list. Users can add items, mark them as purchased, edit existing items, and clear the entire list. The application also utilizes local storage to persist the shopping list even after the page is refreshed.
 
 ## Features
 
 - **Add Items**: Users can input new items into the shopping list.
+
 - **Mark as Purchased**: Users can click on an item to mark it as purchased, visually indicating its status with a strikethrough effect.
+
 - **Edit Items**: Users can double-click on an item to edit its text.
+
 - **Clear List**: Users can clear all items from the shopping list with a single click.
+
 - **Persistence**: The shopping list is saved in the browser's local storage, allowing it to persist across page reloads.
 
 ## Technologies Used
